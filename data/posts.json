@@ -14,9 +14,5 @@
         "content": "# Understanding SQL Injection (SQLi)\r\n\r\n## What is SQL Injection?\r\n\r\nSQL Injection (SQLi) is a common and dangerous web security vulnerability. It occurs when an attacker is able to interfere with the queries that an application makes to its database. Typically, this involves inserting or \"injecting\" malicious SQL code into a user input field. If the application doesn't properly sanitize (clean) this input, the malicious code can be executed by the database.\r\n\r\nThis can allow attackers to:\r\n\r\n* View data they are not supposed to see (e.g., other users' private information, company secrets).\r\n* Modify or delete data in the database.\r\n* Gain administrative control over the database server.\r\n* In some cases, even issue commands to the underlying operating system.\r\n\r\n## Simple Examples of SQL Injection\r\n\r\nLet's imagine a website has a login form with a username and password field. A typical SQL query to check credentials might look like this:\r\n\r\n```sql\r\nSELECT * FROM users WHERE username = 'entered_username' AND password = 'entered_password';",
         "date": "2025-05-07"
     },
-    {
-        "title": "hello moudang",
-        "content": "this is description",
-        "date": "2025-07-17"
-    }
+ 
 ]
